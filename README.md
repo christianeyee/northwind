@@ -1,4 +1,4 @@
-# Northwind API
+# Northwind Mini API
 
 ## Installation and Setup
 To setup this API, first install `Ruby`, `Rails`, and `PostgreSQL`.
@@ -13,7 +13,7 @@ To do this, run `rails server` in this project’s directory.
 ## Instructions
 Create a program that will make requests to this RESTful API.
 
-IT DOES NOT HAVE TO BE A WEB APPLICATION, NOR DOES IT NEED TO HAVE ANY GUI.
+__It does not have to be a web application, nor does it need to have any GUI.__
 
 Use Python for this activity. You may also want to use an HTTP library for Python called Requests. http://docs.python-requests.org/en/latest/ This will definitely make it easier to make requests.
 
@@ -56,8 +56,8 @@ To see the list of endpoints, run `rake routes` in this project's directory.
 
 ## Submission
 - Save your answers to a file. 
-- Zip this file along with your source code. Name this archive _[teamname].zip_.
-- Email this with the title _[teamname] Submission_ to ________________. 
+- Zip this file along with your source code. Name this archive _[surname].zip_.
+- Email this with the title _[surname] Submission_ to _jdagarcia94@gmail.com_. 
 
 
 ## Some things to take note of:
@@ -65,3 +65,5 @@ To see the list of endpoints, run `rake routes` in this project's directory.
 * While it can also return XML, it is highly recommended that you always ask for JSON.
 * You may need to send ```headers = {'content-type': ‘application/json'}``` along with your requests.
 * You do not have to set this API up if you think it will take up too much time to install. All you need is to submit your working Python program and the output text file. 
+* This is not a group activity.
+* If you have any concerns, approach any TeamTationer.
