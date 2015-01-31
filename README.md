@@ -20,6 +20,8 @@ Use Python for this activity. You may also want to use an HTTP library for Pytho
 
 In this exercise, you have to make HTTP requests to this `orders` API.
 
+To see the list of endpoints, run `rake routes` in this project's directory.
+
 1.   `GET` all `orders`.
 
 	_Print only the `ShipCountry` for each `order`._
@@ -53,9 +55,9 @@ In this exercise, you have to make HTTP requests to this `orders` API.
 
 
 ## Submission
-- Save your answers to a file named [teamname]REST_Activity.txt.
-- Zip this file along with your source code.
-- Send this to 
+- Save your answers to a file. 
+- Zip this file along with your source code. Name this archive _[teamname].zip_.
+- Email this with the title _[teamname] Submission_ to ________________. 
 
 
 ## Some things to take note of:
