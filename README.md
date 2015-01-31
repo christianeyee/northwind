@@ -7,7 +7,13 @@ To create the database for the API, run `rake db:setup` in this project’s dire
 
 When making requests to this API, make sure that your Rails server is running!
 To do this, run `rails server` in this project’s directory. 
-`api.localhost:3000` (or `api.yourlocalservername:3000`) should now be listening for requests.
+
+But first, if you are using Linux/Mac OS, add `127.0.0.1	api.northwind.com` to your `/etc/hosts` file. 
+
+In Windows, look for `C:\WINDOWS\system32\etc\hosts`.
+
+
+Run the rails server. `api.northwind.com:3000` should now be listening for requests.
 
 
 ## Instructions
