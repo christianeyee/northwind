@@ -30,11 +30,11 @@ To see the list of endpoints, run `rake routes` in this project's directory.
 
 1.   `GET` all `orders`.
 
-	_Print only the `ShipCountry` for each `order`._
+	*Print only the `ship_country` for each `order`.*
 
 2.   `GET` the `order` with `order_id = 11022`
 
-	_Print only the `ShipAddress` for that `order`._
+	*Print only the `ship_address` for that `order`.*
 
 3.   `POST` a new `order`. Use the following parameters:
 	- order_id = 11078
@@ -52,12 +52,12 @@ To see the list of endpoints, run `rake routes` in this project's directory.
 	- postal_code = ’1234', 
 	- ship_country = ’Philippines’
 
-	_No output. `GET` the `order` with `order id=110778` to see if your entry was added._
-	_Note that you cannot run this `POST` request again with the same `order id`._
+	*No output. `GET` the `order` with `order_id=110778` to see if your entry was added.*
+	*Note that you cannot run this `POST` request again with the same `order_id`.*
 
 4.   `DELETE` the `order` with `order_id = 11025`.
 
-	_No output. `GET` all `orders` again to see if your entry was removed._
+	*No output. `GET` all `orders` again to see if your entry was removed.*
 
 
 ## Submission
